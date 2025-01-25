@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { Github, Twitter, Linkedin, Mail, Menu, X } from 'lucide-react';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
