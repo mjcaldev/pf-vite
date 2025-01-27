@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Github, Twitter, Linkedin, Mail, Menu, X } from 'lucide-react';
 import TechCarousel from './components/TechCarousel';
 import Projects from './components/Projects';
@@ -20,7 +20,7 @@ function App() {
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside)
+    document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
@@ -34,7 +34,7 @@ function App() {
       setTimeout(() => {
         document.getElementById('contact-section')?.scrollIntoView();
       }, 100);
-    } else  {
+    } else {
       document.getElementById('contact-section')?.scrollIntoView();
     }
     handleNavClick();
@@ -48,20 +48,20 @@ function App() {
 
   const valueProps = [
     {
+      title: "Project Management Expertise",
+      description: "Bringing 5+ years of project management experience to software development, ensuring efficient delivery and clear communication."
+    },
+    {
       title: "Full Stack Development",
-      description: "Proficient in both frontend and backend development, building and shipping projects from start to finish."
+      description: "Proficient in both frontend and backend development, creating seamless end-to-end solutions."
     },
     {
       title: "Problem Solving",
-      description: "Applying programmatic thinking & logic to reach efficient solutions."
-    },
-    {
-      title: "Project Management Expertise",
-      description: "Managing budget, resources, & schedule for app launch & run."
+      description: "Strong analytical skills combined with technical knowledge to solve complex challenges."
     },
     {
       title: "Business Acumen",
-      description: "5 years of analyzing the business value of tech projects."
+      description: "Understanding of business needs and how to translate them into technical solutions."
     }
   ];
 
@@ -139,20 +139,20 @@ function App() {
               <div>
                 <div className="relative h-48">
                   <img 
-                    src=""
+                    src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
                     alt="Cover"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="mt-4 flex items-start space-x-4">
                   <img 
-                    src=""
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
                     alt="Profile"
                     className="w-32 h-32 rounded-full border-4 border-black"
                   />
                   <div>
                     <h1 className="text-2xl font-bold">MJ Cal</h1>
-                    <p className="text-gray-400">Software Developer | Tech Project Manager</p>
+                    <p className="text-gray-400">Software Developer | Former Project Manager</p>
                     <div className="flex space-x-4 mt-4">
                       {socialLinks.map(({ icon: Icon, href, label }) => (
                         <a
@@ -174,7 +174,7 @@ function App() {
               <div className="bg-gray-900 rounded-xl p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <h2 className="text-2xl font-bold mb-4">About Me</h2>
                 <p className="text-gray-300 leading-relaxed">
-                  I am a self-taught software developer who has been working with clients to build apps and websites for 2 years.
+                  Former project manager turned software developer, I bring a unique blend of technical expertise and project management skills. My journey into software development started with a passion for creating solutions and a desire to be more hands-on in the development process. With experience managing complex projects and now building them from the ground up, I offer a comprehensive understanding of both the technical and business aspects of software development.
                 </p>
               </div>
 
@@ -214,4 +214,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
