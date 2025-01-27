@@ -2,7 +2,7 @@
 
 I am in the progress of shifting my previous portfolio site to this new project. Excited to get a more professional look that reflects the work I do on a regular basis.
 
-**Link to project:** [http://recruiters-love-seeing-live-demos.com/](http://recruiters-love-seeing-live-demos.com/)
+**Link to project:**
 
 ![alt tag](link-to-screenshot)
 

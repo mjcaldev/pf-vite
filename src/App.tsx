@@ -152,7 +152,7 @@ function App() {
                   />
                   <div>
                     <h1 className="text-2xl font-bold">MJ Cal</h1>
-                    <p className="text-gray-400">Software Developer | Former Project Manager</p>
+                    <p className="text-gray-400">Software Developer | Tech Project Manager</p>
                     <div className="flex space-x-4 mt-4">
                       {socialLinks.map(({ icon: Icon, href, label }) => (
                         <a
@@ -174,7 +174,7 @@ function App() {
               <div className="bg-gray-900 rounded-xl p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <h2 className="text-2xl font-bold mb-4">About Me</h2>
                 <p className="text-gray-300 leading-relaxed">
-                  Former project manager turned software developer, I bring a unique blend of technical expertise and project management skills. My journey into software development started with a passion for creating solutions and a desire to be more hands-on in the development process. With experience managing complex projects and now building them from the ground up, I offer a comprehensive understanding of both the technical and business aspects of software development.
+                  I am a self-taught software developer who has been working with clients to build apps and websites for 2 years.
                 </p>
               </div>
 
