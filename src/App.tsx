@@ -104,13 +104,19 @@ function App() {
               Home
             </button>
             <button 
+              onClick={scrollToContact}
+              className={`w-full text-left p-3 rounded-full hover:bg-gray-800`}
+            >
+              Contact
+            </button>
+            <button 
               onClick={() => {
                 setActiveSection('projects');
                 handleNavClick();
               }}
               className={`w-full text-left p-3 rounded-full hover:bg-gray-800 ${activeSection === 'projects' ? 'bg-gray-800' : ''}`}
             >
-              Contact
+              Projects
             </button>
             <button 
               onClick={() => {
@@ -118,12 +124,6 @@ function App() {
                 handleNavClick();
               }}
               className={`w-full text-left p-3 rounded-full hover:bg-gray-800 ${activeSection === 'blog' ? 'bg-gray-800' : ''}`}
-            >
-              Projects
-            </button>
-            <button 
-              onClick={scrollToContact}
-              className={`w-full text-left p-3 rounded-full hover:bg-gray-800`}
             >
               truthy.dev
             </button>
