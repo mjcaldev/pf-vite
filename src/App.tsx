@@ -41,23 +41,23 @@ function App() {
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: Twitter, href: 'https://twitter.com/yourusername', label: 'Twitter' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/mjcaldev', label: 'GitHub' },
+    { icon: Twitter, href: 'https://x.com/mjcaldev', label: 'Twitter' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/mjcaldev', label: 'LinkedIn' },
   ];
 
   const valueProps = [
     {
       title: "Project Management Expertise",
-      description: "Bringing 5+ years of project management experience to software development, ensuring efficient delivery and clear communication."
+      description: "5+ years of tech project management ensures that I communicate effectively, plan strategically, and develop efficiently, with the end-goal in mind."
     },
     {
-      title: "Full Stack Development",
-      description: "Proficient in both frontend and backend development, creating seamless end-to-end solutions."
+      title: "Full Stack & AI Development",
+      description: "Proficient in both frontend, backend, and AI integration, creating seamless, modern, end-to-end solutions."
     },
     {
       title: "Problem Solving",
-      description: "Strong analytical skills combined with technical knowledge to solve complex challenges."
+      description: "Strong analytical skills combined with technical knowledge to solve complex challenges (also LeetCode and Codewars fanatic!)."
     },
     {
       title: "Business Acumen",
@@ -146,7 +146,7 @@ function App() {
                 </div>
                 <div className="mt-4 flex items-start space-x-4">
                   <img 
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                    src="../src/assets/mjcal-headshot.jpg"
                     alt="Profile"
                     className="w-32 h-32 rounded-full border-4 border-black"
                   />
