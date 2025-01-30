@@ -20,7 +20,7 @@ const Blog: React.FC = () => {
       <div className="border-b border-gray-800 pb-8">
         <h1 className="text-3xl font-bold mb-2">truthy.dev</h1>
         <p className="text-gray-400">
-          Documenting my journey from project management to software development
+          Lets talk about career, problem solving, how to bring value despite the ever-changing world of tech.
         </p>
       </div>
 

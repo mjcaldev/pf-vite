@@ -2,15 +2,15 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Description of project 1',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    tech: ['React', 'Node.js', 'MongoDB'],
+    title: 'Personal Finance App',
+    description: 'A generalized version of a product I shipped for a client.',
+    image: '/assets/Track.png',
+    tech: ['Typescript', 'Plaid', 'Next.js', 'Appwrite'],
   },
   {
-    title: 'Project 2',
-    description: 'Description of project 2',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    title: 'Music Player',
+    description: 'A web app to play, shuffle, navigate a clients music (replaced with placeholder sounds).',
+    image: '/assets/TN-Music.png',
     tech: ['TypeScript', 'Next.js', 'Tailwind'],
   },
   // Add more projects as needed

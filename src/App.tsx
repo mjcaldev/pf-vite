@@ -43,25 +43,25 @@ function App() {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/mjcaldev', label: 'GitHub' },
     { icon: Twitter, href: 'https://x.com/mjcaldev', label: 'Twitter' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/mjcaldev', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/mjcal', label: 'LinkedIn' },
   ];
 
   const valueProps = [
     {
-      title: "Project Management Expertise",
-      description: "5+ years of tech project management ensures that I communicate effectively, plan strategically, and develop efficiently, with the end-goal in mind."
+      title: "Project Oriented Development",
+      description: "5+ years of managing tech projects has made me an efficient developer, a thorough tester, and keen to user experience."
     },
     {
       title: "Full Stack & AI Development",
-      description: "Proficient in both frontend, backend, and AI integration, creating seamless, modern, end-to-end solutions."
+      description: "Whether its Ruby or PHP, React or Angular, OpenAI or Anthropic -- I'm experienced in using the best tools to get the job done right."
     },
     {
       title: "Problem Solving",
-      description: "Strong analytical skills combined with technical knowledge to solve complex challenges (also LeetCode and Codewars fanatic!)."
+      description: "From root cause analysis to logical flow of syntax, I love solving problems (I'm also a LeetCode and Codewars fanatic!)."
     },
     {
       title: "Business Acumen",
-      description: "Understanding of business needs and how to translate them into technical solutions."
+      description: "I have worked with Express and Vue as well contracts and SOWs. I develop with a focus on value."
     }
   ];
 
@@ -92,7 +92,7 @@ function App() {
         }`}
       >
         <div className="p-6">
-          <h1 className="text-xl font-bold mb-8">MJ Cal</h1>
+          <h1 className="text-xl font-bold mb-8">mjcal development</h1>
           <div className="space-y-4">
             <button 
               onClick={() => {
@@ -146,13 +146,13 @@ function App() {
                 </div>
                 <div className="mt-4 flex items-start space-x-4">
                   <img 
-                    src="../src/assets/mjcal-headshot.jpg"
+                    src="assets/mjcal-headshot.jpg"
                     alt="Profile"
                     className="w-32 h-32 rounded-full border-4 border-black"
                   />
                   <div>
-                    <h1 className="text-2xl font-bold">MJ Cal</h1>
-                    <p className="text-gray-400">Software Developer | Former Project Manager</p>
+                    <h1 className="text-2xl font-bold">Micheal J. Callaghan (mjcal)</h1>
+                    <p className="text-gray-400">Software Engineer | Full Stack Developer | Program/Project Manager</p>
                     <div className="flex space-x-4 mt-4">
                       {socialLinks.map(({ icon: Icon, href, label }) => (
                         <a
@@ -174,7 +174,7 @@ function App() {
               <div className="bg-gray-900 rounded-xl p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <h2 className="text-2xl font-bold mb-4">About Me</h2>
                 <p className="text-gray-300 leading-relaxed">
-                  Former project manager turned software developer, I bring a unique blend of technical expertise and project management skills. My journey into software development started with a passion for creating solutions and a desire to be more hands-on in the development process. With experience managing complex projects and now building them from the ground up, I offer a comprehensive understanding of both the technical and business aspects of software development.
+                My experience as an engineer is mature and unique. I come from "the other end" of the process. While many engineers struggle to develop with the budget, schedule, or "big picture" in mind, you'll find that I am quite the opposite. My solutions are scalable and modular. I work efficiently whether in teams or alone. I leverage the latest technology (AI, Web builders, Modern Frameworks) to provide the most value in the least time. Let's build effective tools and bring impactful ideas to life!
                 </p>
               </div>
 
