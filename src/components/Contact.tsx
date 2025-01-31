@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail } from 'lucide-react';
+import emailjs from 'emailjs-com';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -10,7 +11,15 @@ const Contact: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Implement email sending and database logging
+    // EmailJS
+    // try {
+    //   await emailjs.send(
+    //     'service_68rvlmi',
+    //     'template_reygojq',
+    //     formData,
+
+    //   )
+    // }
     console.log('Form submitted:', formData);
   };
 
