@@ -4,6 +4,7 @@ import TechCarousel from './components/TechCarousel';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [activeSection, setActiveSection] = useState('main');
@@ -210,6 +211,7 @@ function App() {
           {activeSection === 'blog' && <Blog />}
         </div>
       </main>
+      <Analytics />
     </div>
   );
 }
